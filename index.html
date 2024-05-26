@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Catamaran:wght@200&family=Courgette&family=Dancing+Script:wght@700&family=Edu+TAS+Beginner:wght@700&family=Lato:wght@300;900&family=Mukta:wght@700&family=Mulish:wght@300&family=Open+Sans&family=PT+Sans:ital,wght@1,700&family=Poppins:wght@300&family=Raleway:wght@100&family=Roboto&family=Roboto+Condensed:wght@700&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f30fac2c61.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">
+                <h1>Shoppy</h1>
+            </div>
+            <ul>
+                <li><a href="" class="active">Home</a></li>
+                <li><a href="#shop" id="shops">Shop</a></li>
+                <li><a href="#review" id="reviews">Review</a></li>
+                <li><a href="#blog" id="blogs">Blog</a></li>
+                <li><a href="#contact" id="contacts">Contact</a></li>
+
+            </ul>
+            <div class="icon">
+                <i id="bar" class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+
+        <!-- main page -->
+        <div class="main">
+            <div class="mainText">
+                <h2>Fashion Hub</h2>
+                <h1>Fashion For Always</h1>
+                <p>Fashion is your Choice with infinity Love .</p>
+                <a href="#shop"><button>Explore</button></a>
+            </div>
+            <img src="https://img.freepik.com/free-photo/online-fashion-shopping-collage_23-2150535823.jpg?w=740&t=st=1709708266~exp=1709708866~hmac=fd9ff2a341c4dff2b3a09eef916ffde47b1521d741046ca92bf841143e9f11b8" class="imge1" alt="">
+        </div>
+
+        <!-- shopping card -->
+
+        <div class="shop" id="shop">
+            <div class="head">
+                <h1>Treding <span>Cloth's</span></h1>
+            </div>
+            <section class="switch-container">
+            <button id="menTab" class="switch-btn">Men</button>
+            <button id="womenTab" class="switch-btn">Women</button>
+            <button id="kidsTab" class="switch-btn">Kids</button>
+           </section>
+
+        <section id="productSection" class="products-section">
+
+        </section>  
+        </div>
+
+        <!-- review -->
+
+        <div class="customer" id="review">
+            <div class="head">
+                <h1>Customer <span>Review</span></h1>
+            </div>
+            <div class="reviews">
+                <div class="rCard">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-testimonials-1-img.png" alt="">
+                    <p>Products are very good Quality is Amazing</p>
+                    <button>More.</button>
+                </div>
+                <div class="rCard">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-testimonials-3-img.png" alt="">
+                    <p>The best Place for shoping</p>
+                    <button>More.</button>
+                </div>
+                <div class="rCard">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-testimonials-2-img.png" alt="">
+                    <p>Cloth Quality is very good and style too  </p>
+                    <button>More.</button>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- blog -->
+        <div class="read" id="blog">
+            <div class="head">
+                <h1>Read <span>Blog's</span></h1>
+            </div>
+            <div class="blog">
+                <div class="blogCard">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-about-me-img.png" alt="" class="imageRead">
+                    <p>Explore more with below button</p>
+                    <a href="https://codesupply.co/fashion-blogs/" target="_blank">Read More</a>
+                </div>
+                <div class="blogCard">
+                    <img src="https://1847884116.rsc.cdn77.org/telugu/gallery/actor/vishwaksennaidu/poster.jpg" alt="" class="imageRead">
+                    <p>Explore more with below button</p>
+                    <a href="https://codesupply.co/fashion-blogs/" target="_blank">Read More</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- contact  -->
+        <div class="contact" id="contact">
+            <div class="head">
+                <h1>Contact <span>Us</span></h1>
+            </div>
+            <div class="connect">
+                <input type="text" placeholder="Enter Your Name" id="names"> <br>
+                <input type="text" placeholder="Enter Your Number" id="number"> <br>
+                <button onclick="connect()">Connect</button>
+
+            </div>
+        </div>
+
+        <!-- footer -->
+        <div class="footer">
+            <div class="text">
+                <h2>Shoppy</h2>
+                <p>One place for family shopping with happy <br>
+                    You can Purchase the product with deifferen pay methods <br>Cloths with good Quality
+                    </p>
+            </div>
+            <div class="text">
+                <h2>Explore</h2>
+                <p>All</p>
+                <p>Rated</p>
+                <p>Scores</p>
+                <p>Scores</p>
+
+
+            </div>
+            <div class="text">
+                <h2>Connect</h2>
+                <p>Connect</p>
+                <p>Insta</p>
+                <p>Twitter</p>
+                <p>Facebook</p>
+
+            </div>
+            <div class="text">
+                <h2>Nity Grity</h2>
+                <p>Term & Condition</p>
+                <p>Privacy Policy </p>
+                <p>FAQs</p>
+                <p>Special credits</p>
+
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- item Page -->
+    <div class="itemPage">
+        <img id="itemImg" src="" alt="">
+        <div class="itemText">
+            <h3>Trending</h3>
+            <h3 id="headText"></h3>
+            <p>Quantity</p>
+            <input id="inputText" type="number" value="1">
+            <h2>Available Offer's</h2>
+            <p>Special PriceGet extra 13% off (price inclusive of cashback/coupon)</p>
+            <p>Bank Offer₹15 off on UPI Transaction</p>
+            <p>Bank OfferFlat ₹200 off on HDFC Bank Credit/Debit</p>
+            <p>Bank OfferFlat ₹200 off on HDFC Bank Credit/Debit</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus,<br>
+                optio rationea dipisicing elit. Possimus, optio ratione.</p>
+            <a href="">Back</a>
+            <a id="buyBtn">Buy Now</a>
+
+
+
+        </div>
+    </div>
+
+
+
+    <div class="buyPage">
+        <div class="cross">
+            <i class="fa-solid fa-xmark"></i>
+        </div>
+        <div class="buyText">
+
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
